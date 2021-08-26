@@ -1,0 +1,32 @@
+.background-img {
+    width: 100%;
+    opacity: 0.7;
+    z-index: 0;
+    object-fit: cover;
+    top: 0;
+    height: 100vh;
+    position: absolute;
+}
+
+div {
+    z-index: 2;
+}
+
+label {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input, select {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select {
+    border: 1px solid black;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
